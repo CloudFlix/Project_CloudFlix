@@ -1,0 +1,1 @@
+ssh-keygen -f "/home/ubuntu/.ssh/known_hosts" -R localhost

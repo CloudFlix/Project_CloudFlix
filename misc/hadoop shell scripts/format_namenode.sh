@@ -1,0 +1,1 @@
+sh $HADOOP_HOME/bin/hadoop namenode -format
