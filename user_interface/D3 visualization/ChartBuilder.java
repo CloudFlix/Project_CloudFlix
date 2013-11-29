@@ -135,7 +135,7 @@ public class ChartBuilder {
 		   }
 		   return sortedMap;
 		}
-	static void SetMatrix(int topN)
+	static void createLists(int topN)
 	{
 		Iterator it = sortedByCount.entrySet().iterator();
 		for(int i=0;i<10;i++)
@@ -195,48 +195,7 @@ public class ChartBuilder {
 	    }
 	}
 	
-   /* static void WriteJson()
-	{
-		//MovieInfo x1=(MovieInfo)ll[4].getFirst();
-		//System.out.println(x1.yearRange);
-		//System.out.println(x1);
-		StringBuilder sb=new StringBuilder();
-		sb.append("{");
-		sb.append("\n" + "\"name\":\"flare\",");
-		sb.append("\n" + "\"children\":[");
-		for(int i=0;i<ll.length;i++)
-		{
-			if(ll[i].size()!=0)
-			{
-			sb.append("\n{");
-				
-			MovieInfo currrange=(MovieInfo)ll[i].get(0);
-			sb.append("\n" + "\"name\":\"" + currrange.yearRange +"\",");
-			sb.append("\n" + "\"children\":[");
-			int j=0;
-			MovieInfo x1;
-		    for(j=0;j<ll[i].size()-1;j++)
-			{
-		    	x1=(MovieInfo)ll[i].get(j);
-		    	sb.append("\n{" + "\"name\":\"" + x1.name +"\",\"size\":" + x1.numRecos + "},");
-			}
-		    x1=(MovieInfo)ll[i].get(j);
-		    sb.append("\n{" + "\"name\":\"" + x1.name +"\",\"size\":" + x1.numRecos + "}");
-		    sb.append("\n]},");	
-			}
-		}
-		sb.replace(sb.length()-1,sb.length()," ");
-		sb.append("\n]}");
-		String Json=sb.toString();
-		try{
-			PrintWriter pw=new PrintWriter("Flare.json");
-			pw.println(Json);
-			pw.close();
-		}catch(Exception e)
-		{
-			
-		}
-	}*/
+  
 	static void writeHtml(int topNmovies)
 	{
 		StringBuilder sb=new StringBuilder();
@@ -293,7 +252,7 @@ public class ChartBuilder {
 			e.printStackTrace();
 		}
 	
-		SetMatrix(Integer.parseInt(args[0]));
+		createLists(Integer.parseInt(args[0]));
 		writeHtml(Integer.parseInt(args[0]));
 		}
 		//WriteJson();
