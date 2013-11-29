@@ -9,6 +9,7 @@ from nltk.probability import FreqDist, ConditionalFreqDist
 from nltk.util import ngrams
 from nltk.metrics import BigramAssocMeasures, f_measure, masi_distance, precision, recall
 
+
 #Sentiment analysis Trainer 
 #Author Pratik Somanagoudar
 
