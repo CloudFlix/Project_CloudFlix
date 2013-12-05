@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>CloudFlix</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
