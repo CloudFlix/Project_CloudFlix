@@ -20,7 +20,7 @@
 </head>
 <body >
   <div class="container">
-    <div class="content" style ="background-image: url(images/bgcolorlogin.png);"> 
+    <div class="content" style ="background-image: url(images/bgcolorlogin.png);">
         <div class="login-form">
           <h2>Login</h2>
           <form action="login.php" method='post'>
@@ -57,18 +57,15 @@
   <div id="container1">
 			<div id="slider_container_2">
 				<div id="SliderName_2" class="SliderName_2">
-					
-					<img src="images/m1.jpg" width="900" height="450" alt="Demo2 second" title="Demo2 second" usemap="#img1map1"/>
-					<img src="images/m3.jpg" width="900" height="450" alt="Demo2 third" title="Demo2 third" usemap="#img1map2" />
-					<img src="images/m2.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-				    <img src="images/m4.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m5.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m6.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m7.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m8.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m9.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m11.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
-					<img src="images/m10.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
+
+					<img src="images/1.jpg" width="900" height="450" alt="Demo2 second" title="Demo2 second" usemap="#img1map1"/>
+					<img src="images/3.jpg" width="900" height="450" alt="Demo2 third" title="Demo2 third" usemap="#img1map2" />
+					<img src="images/2.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
+				    <img src="images/4.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
+					<img src="images/5.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
+					<img src="images/6.jpg" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
+					<img src="images/mv1.png" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
+					<img src="images/mv2.png" width="900" height="450" alt="Demo2 fourth" title="Demo2 fourth" usemap="#img1map3"/>
 				</div>
 				<div class="c"></div>
 				<div id="SliderNameNavigation_2"></div>
@@ -89,8 +86,9 @@
 
 		<div class="c"></div>
 	</div>
-  <div class = "footer">I am a footer
-  </div>
+  <div class="footer" >
+  <p style="text-align:center; color: blue;">Copyright c 2013 CloudFlix Team.All rights reserved.</p>
+</div>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
