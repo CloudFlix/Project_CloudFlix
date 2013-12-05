@@ -19,10 +19,12 @@ if($row = mysqli_fetch_array($result))
     session_start();
     $_SESSION['uid']=$row['userid'];
     echo "Redirecting...";
+	?><meta http-equiv="refresh" content="1; url=UserPage.php"><?php
   }
-  else
+  else{
     echo "Please enter correct username or password. Redirecting in 3 seconds.";
-                        ?><meta http-equiv="refresh" content="3; url=UserPage.php"><?php
+                        ?><meta http-equiv="refresh" content="1; url=MyHomePage.php"><?php
+	}
 }
 mysqli_close($con);
 /*$connection = oci_connect($username = 'ugoel',

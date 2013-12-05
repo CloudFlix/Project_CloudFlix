@@ -1,0 +1,76 @@
+	  .container {
+	  /*border: red 4px dashed; border-bottom: blue 4px solid;*/
+	    width: 900px;
+		height: 190px;
+		display: inline-block;
+		
+      }
+	  
+      /* The white background content wrapper */
+       .content {
+	  /* border: red 4px dashed; border-bottom: blue 4px solid;*/
+	  margin-top: 10px;
+	  margin-right:10px;
+      margin-bottom:10px;	  
+	  max-width : 40%;
+	   float :right;
+        background-color: #fff;
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+	  .Wright{
+	 /* margin: auto 0;*/
+	/*
+	  border: red 4px dashed;
+	  border-bottom: blue 4px solid;
+	  */float: left;
+/*	   content : url(http://www.hislider.com/faq/images/change_background_image_for_jquery_slider.jpg);
+*/
+margin-top: 10px;
+
+max-width:70%; max-height:100%;	 	 
+		 }
+	  
+	  .login-form {
+	position: relative;
+    margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	 
+	/*	margin-left: 25px;
+	  margin-left: 25px;
+	  */
+	  }
+	
+	.container1{
+	width: 900px;
+	/*border: red 4px dashed; border-bottom: blue 4px solid;
+	*/
+	height: 600px;
+	}
+	
+	
+.footer
+{
+width : 900px;
+
+clear: both;
+
+}
+	
+	  
+.container1 {
+    position:relative;
+   
+}
+
+.fadein img {
+    position:absolute;
+    left:0;
+    top:0;
+}

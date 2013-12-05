@@ -6,7 +6,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap_old.css" rel="stylesheet" media="screen">
 	<!-- sliderman.js -->
 	<script type="text/javascript" src="js/sliderman.1.3.7.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/sliderman.css" />
