@@ -23,17 +23,17 @@
     <div class="content" style ="background-image: url(images/bgcolorlogin.png);"> 
         <div class="login-form">
           <h2>Login</h2>
-          <form action="">
+          <form action="login.php" method='post'>
             <fieldset >
               <div class="clearfix">
-                <input type="text" placeholder="Username">
+                <input type="text" id="uname" name="uname" placeholder="Username">
               </div>
               <div class="clearfix">
-                <input type="password" placeholder="Password">
+                <input name="pwd" type="password" id="pwd" placeholder="Password">
               </div>
               <button class="btn btn-primary" type="submit">Sign in</button>
 			  <Text></Text>
-              <button class="btn btn-primary" type="submit" style="float:right;">Sign up</button>
+              <a href="sign_up.html"><span class="btn btn-primary" type="submit" style="float:right;">Sign up</span></a>
 			</fieldset>
           </form>
         </div>
